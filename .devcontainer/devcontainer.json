@@ -1,0 +1,16 @@
+{
+	"name": "Ubuntu",
+	"dockerFile": "Dockerfile",
+	"context": "..",
+	"workspaceFolder": "/app",
+	"settings": {},
+	"extensions": [
+		"VisualStudioExptTeam.vscodeintellicode"
+	],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+	"remoteUser": "vscode",
+	"features": {
+		"docker-in-docker": "latest"
+	}
+}
